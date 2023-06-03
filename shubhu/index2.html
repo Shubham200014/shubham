@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <style>
+      .main {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto;
+        /* background-color: rgba(red, green, blue, alpha); */
+      }
+      .col {
+        padding: 50px;
+        text-align: center;
+      }
+      .row {
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: auto auto auto;
+      }
+      .shubhu {
+        padding: 10px;
+      }
+      button {
+        background-color: aqua;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Resistraion form for booking</h1>
+    <form>
+      <fieldset>
+        <legend for="resistraion link ">resistraion link</legend>
+        <div class="main">
+          <div class="col">
+            <lavel> first name</lavel>
+            <input type="text" />
+          </div>
+          <div class="col">
+            <lavel> last name</lavel>
+            <input type="text" />
+          </div>
+          <div class="col">
+            <lavel> gender</lavel><br />
+            <input type="radio" name="gender" value="male" />male <br />
+            <input type="radio" name="gender" value="female" />female<br />
+            <input type="radio" name="gender" value="other" />other
+          </div>
+          <div class="col">
+            <lavel> fathers name</lavel>
+            <input type="text" />
+          </div>
+          <div class="col">
+            <lavel> father occopition </lavel>
+            <input type="text" />
+          </div>
+          <div class="col">
+            <lavel> mothers name</lavel>
+            <input type="text" />
+          </div>
+          <div class="col">
+            <lavel> mother occopition</lavel>
+            <input type="text" />
+          </div>
+          <div class="col">
+            <lavel> email id </lavel>
+            <input type="email id " />
+          </div>
+          <div class="col">
+            <lavel> contact number </lavel>
+            <input type="text" />
+          </div>
+          <div class="col">
+            <textarea>permanent address  </textarea>
+          </div>
+          <div class="col">
+            <lavel> pin code </lavel>
+            <input type="text" />
+          </div>
+          <div class="col">
+            <select>
+              <option>state</option>
+              <option>utter pradesh</option>
+              <option>madhay pradesh</option>
+              <option>delhi</option>
+              <option>bihar</option>
+              <option>maharastra</option>
+              <option>other</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="shu">
+            <button type="button">back</button>
+          </div>
+          <div class="shu">
+            <button type="button">next</button>
+          </div>
+          <div class="shu">
+            <button type="submit">submit</button>
+          </div>
+        </div>
+      </fieldset>
+    </form>
+  </body>
+</html>
